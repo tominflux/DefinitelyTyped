@@ -54,6 +54,7 @@ export interface BucketItemStat {
     etag: string;
     lastModified: Date;
     metaData: ItemBucketMetadata;
+    versionId: string;
 }
 
 export interface IncompleteUploadedBucketItem {
